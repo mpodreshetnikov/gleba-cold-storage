@@ -3,6 +3,7 @@
   "version": "0.2.1",
   "title": "Gleba Cold Storage",
   "author": "mpodreshetnikov",
+  "homepage": "https://github.com/mpodreshetnikov/gleba-cold-storage",
   "description": "Fridges for Space Age that slow spoilage without removing the challenge. Cold chambers need water and vent steam that has to go somewhere; cryo vaults are cold for free on Aquilo and run on Aquilo-charged cryo cells everywhere else; refrigerated wagons run off their equipment grid; a cryo press seals food in ice blocks for the trip between planets.",
   "factorio_version": "2.1",
   "dependencies": [
