@@ -1,0 +1,5 @@
+# Not part of the mod zip: `git archive` skips these (see dev/README.md).
+dev/ export-ignore
+docs/ export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore

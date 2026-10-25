@@ -1,0 +1,7 @@
+require("prototypes.shared")
+require("prototypes.cold-chamber")
+require("prototypes.cryo-vault")
+require("prototypes.cryo-cells")
+require("prototypes.refrigerated-wagon")
+require("prototypes.encapsulator")
+require("prototypes.technology")

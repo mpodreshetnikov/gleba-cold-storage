@@ -1,0 +1,8 @@
+{
+  "name": "gcs-tests",
+  "version": "0.1.0",
+  "title": "Gleba Cold Storage tests",
+  "author": "mpodreshetnikov",
+  "factorio_version": "2.1",
+  "dependencies": ["gleba-cold-storage"]
+}

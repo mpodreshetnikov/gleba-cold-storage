@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2026-10-25
+  Graphics:
+    - Cryo-encapsulator: removed the ice sparkles; it now gives off the same cold mist as the cryo vault.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2026-10-25
+  Features:
+    - Containers now have a temperature that drifts towards their cooling target or the planet's own temperature; spoilage speed follows it.
+    - Cold chamber turns water into 100 C steam; if the steam cannot leave, the chamber stops cooling.
+    - Cryo vault is cooled for free on Aquilo; elsewhere it needs power and cryo cells, which are charged only on Aquilo and thaw within an hour.
+    - New cryo vault and cryo-encapsulator graphics from CMA Graphics (CC0); vault rings glow in the logistic colour while it cools; the encapsulator frosts over and gives off cold mist while it works.
+  Changes:
+    - Removed the flat 2x penalty for unpowered storage: an idle container now just warms up to the planet's temperature.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-10-25
+  Features:
+    - Cold chamber (Gleba): 2x2, 12 slots, spoilage 3x slower while powered (250 kW) and watered (6/s).
+    - Cryo vault (Aquilo tech): 3x3, 48 slots, spoilage 20x slower (600 kW, 10 water/s), with passive provider, requester and buffer variants.
+    - Refrigerated wagon: 30 slots, spoilage 5x slower while its equipment grid supplies 150 kW.
+    - Cryo-encapsulator: freezes water into ice and seals 10 perishables into an ice block that keeps 10x longer.
+    - Without power or water, chambers and vaults spoil their contents 2x faster than normal.
+    - All rates are configurable in mod settings.
